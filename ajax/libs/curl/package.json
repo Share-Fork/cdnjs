@@ -1,6 +1,6 @@
 {
   "name": "curl",
-  "version": "0.7.3",
+  "version": "0.8.9",
   "filename": "curl-for-jQuery/curl.min.js",
   "description": "curl.js is small, fast, extensible module loader that handles AMD, CommonJS Modules/1.1, CSS, HTML/text, and legacy scripts.",
   "keywords": [
@@ -14,5 +14,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cujojs/curl"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cujojs/curl.git",
+    "basePath": "dist",
+    "files": [
+      "**/*.!(md)"
+    ]
   }
 }
