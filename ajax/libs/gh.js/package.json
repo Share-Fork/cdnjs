@@ -1,6 +1,6 @@
 {
   "name": "gh.js",
-  "version": "3.0.6",
+  "version": "3.0.8",
   "description": "Tiny GitHub API wrapper for server and client.",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "npmName": "gh.js",
   "npmFileMap": [
     {
-      "basePath": "/dist",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]

@@ -1,6 +1,6 @@
 {
   "name": "gridly",
-  "version": "1.4.3",
+  "version": "1.4.5",
   "description": "The minimal (~157 bytes) grid system for modern browsers.",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "npmName": "gridly",
   "npmFileMap": [
     {
-      "basePath": "/dist",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]

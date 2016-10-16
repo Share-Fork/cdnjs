@@ -1,6 +1,6 @@
 {
   "name": "caiuss",
-  "version": "1.4.4",
+  "version": "1.4.6",
   "description": "A Minimalist and Civilized CSS framework.",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "npmName": "caiuss",
   "npmFileMap": [
     {
-      "basePath": "/dist",
+      "basePath": "dist",
       "files": [
         "*"
       ]

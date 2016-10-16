@@ -1,32 +1,33 @@
 {
   "name": "octicons",
   "filename": "octicons.min.css",
-  "version": "3.5.0",
+  "version": "4.4.0",
   "description": "GitHub's icon font",
-  "license": "SIL OFL 1.1, MIT",
+  "licenses": [
+    "OFL-1.1",
+    "MIT"
+  ],
   "homepage": "http://octicons.github.com/",
   "keywords": [
     "GitHub",
     "icons",
     "font",
     "web font",
-    "icon font"
+    "icon font",
+    "svg",
+    "octicons"
   ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/github/octicons.git",
-    "basePath": "octicons/",
+    "target": "git://github.com/primer/octicons.git",
+    "basePath": "build",
     "files": [
-      "*.ttf",
-      "*.eot",
-      "*.svg",
-      "*.woff",
-      "*.css"
+      "**/*"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/github/octicons.git"
+    "url": "git://github.com/primer/octicons.git"
   },
   "author": "GitHub <support@github.com>"
 }

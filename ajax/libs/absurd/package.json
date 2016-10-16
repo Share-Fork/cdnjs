@@ -1,7 +1,7 @@
 {
   "name": "absurd",
   "filename": "absurd.min.js",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "JavaScript library with superpowers - http://absurdjs.com/",
   "homepage": "http://absurdjs.com/",
   "keywords": [
@@ -11,7 +11,7 @@
   "npmName": "absurd",
   "npmFileMap": [
     {
-      "basePath": "/client-side/build/",
+      "basePath": "client-side/build",
       "files": [
         "*.js"
       ]
